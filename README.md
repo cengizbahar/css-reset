@@ -1,6 +1,8 @@
 ## Css  Webkit My Reset
 
 ```
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -26,6 +28,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	font-family: 'Montserrat', sans-serif;
 }
 ol, ul {
 	list-style: none;
@@ -164,5 +167,15 @@ transition: all 0.2s ease;
 .bold {
   font-family: "bold"; }
   
-
+/* container */
+.container-fluid {
+	width: 100%;
+}
+.container {
+	width: 1440px;
+}
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
 ```

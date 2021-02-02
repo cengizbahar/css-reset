@@ -173,6 +173,7 @@ transition: all 0.2s ease;
 }
 .container {
 	max-width: 1440px;
+	margin: 0 auto;
 }
 .row {
 	display: flex;

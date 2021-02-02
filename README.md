@@ -283,5 +283,6 @@ transition: all 0.2s ease;
   flex: 0 0 auto;
   width: 100%;
 }
+}
 ```
 

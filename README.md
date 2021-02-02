@@ -64,7 +64,7 @@ img {
 .display-flex {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex; 
 }
 
 .justify-content-center {
